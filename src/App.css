@@ -1,0 +1,62 @@
+.App {
+    text-align: center;
+    color: #dfe6e9;
+    font-family: sans-serif;
+
+}
+
+.Header {
+    font-family: Linux Libertine,serif;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: inset 0 0 0px 9999px #ecf0f1;
+  }
+
+.searchtext {
+    margin: 20px auto;
+    padding: 10px 10px;
+    width: 60%;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #ecf0f1;
+}
+
+.searchbutton {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #2c3e50;
+    color: #e67e22;
+    border: 2px solid #2c3e50;
+    border-radius: 10px;
+    cursor:pointer;
+    box-shadow: 0px 5px 0px 0px #34495e;
+    transition: 0.2s all ease;
+}
+.searchbutton:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+  }
+
+.random {
+    font-size: 25px;
+}
+
+.result {
+    text-align: left;
+    background-color: #282c2d;
+    margin: 10px 15%;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #00cec9;
+}
